@@ -12,7 +12,7 @@
 #import "GBAControllerSkinGroup.h"
 #import "GBAControllerSkinDownloadController.h"
 
-#import <RSTWebViewController.h>
+#import "RSTWebViewController.h"
 
 #import "UIAlertView+RSTAdditions.h"
 #import "UITableViewController+ControllerSkins.h"

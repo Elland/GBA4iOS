@@ -8,7 +8,7 @@
 
 #import "GBABetaTesterCreditsViewController.h"
 
-#import <RSTWebViewController.h>
+#import "RSTWebViewController.h"
 
 @interface GBABetaTesterCreditsViewController ()
 

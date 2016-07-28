@@ -28,7 +28,6 @@
 
 #if !(TARGET_IPHONE_SIMULATOR)
 #import <CrashReporter/CrashReporter.h>
-#import <Crashlytics/Crashlytics.h>
 #endif
 
 NSString * const GBAUserRequestedToPlayROMNotification = @"GBAUserRequestedToPlayROMNotification";
@@ -119,10 +118,6 @@ static GBAAppDelegate *_appDelegate;
     
     NSString *apiKey = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Crashlytics" ofType:@"apikey"] encoding:NSUTF8StringEncoding error:nil];
     
-    if (apiKey.length)
-    {
-        [Crashlytics startWithAPIKey:apiKey];
-    }
 #endif
     
     [self.window makeKeyAndVisible];

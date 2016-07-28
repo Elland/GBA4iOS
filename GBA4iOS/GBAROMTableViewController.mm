@@ -21,8 +21,6 @@
 #import "NSFileManager+ForcefulMove.h"
 #import "GBAWebViewController.h"
 
-#import <Crashlytics/Crashlytics.h>
-
 #import "UIAlertView+RSTAdditions.h"
 #import "UIActionSheet+RSTAdditions.h"
 

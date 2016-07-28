@@ -9,7 +9,7 @@
 #import "GBAEventDistributionDetailViewController.h"
 #import "GBAAsynchronousRemoteTableViewCell.h"
 #import "GBAROM_Private.h"
-#import <PSPDFTextView.h>
+#import "PSPDFTextView.h"
 
 #import "UIActionSheet+RSTAdditions.h"
 #import "UIAlertView+RSTAdditions.h"
